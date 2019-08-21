@@ -1,0 +1,31 @@
+{
+  "name": "react-native-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-native": "^0.60.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.8.0",
+    "jsdom": "^15.1.1",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-native-mock-render": "^0.1.5",
+    "react-test-renderer": "^16.9.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
